@@ -36,56 +36,56 @@ let div4;
 
 function preload() {
   let spriteSheet1 = loadJSON(
-    "../src/assets/" + folderName + "/" + spriteName + ".json"
+    "assets/" + folderName + "/" + spriteName + ".json"
   );
   let spriteData1 = loadImage(
-    "../src/assets/" + folderName + "/" + spriteName + ".png"
+    "assets/" + folderName + "/" + spriteName + ".png"
   );
   spriteC1 = new SpriteSheet(spriteSheet1, spriteData1);
 
   spriteName = "terrain2";
   let spriteSheet2 = loadJSON(
-    "../src/assets/" + folderName + "/" + spriteName + ".json"
+    "assets/" + folderName + "/" + spriteName + ".json"
   );
   let spriteData2 = loadImage(
-    "../src/assets/" + folderName + "/" + spriteName + ".png"
+    "assets/" + folderName + "/" + spriteName + ".png"
   );
   spriteC2 = new SpriteSheet(spriteSheet2, spriteData2);
 
   spriteName = "terrain3";
   let spriteSheet3 = loadJSON(
-    "../src/assets/" + folderName + "/" + spriteName + ".json"
+    "assets/" + folderName + "/" + spriteName + ".json"
   );
   let spriteData3 = loadImage(
-    "../src/assets/" + folderName + "/" + spriteName + ".png"
+    "assets/" + folderName + "/" + spriteName + ".png"
   );
   spriteC3 = new SpriteSheet(spriteSheet3, spriteData3);
 
   spriteName = "terrain4";
   let spriteSheet4 = loadJSON(
-    "../src/assets/" + folderName + "/" + spriteName + ".json"
+    "assets/" + folderName + "/" + spriteName + ".json"
   );
   let spriteData4 = loadImage(
-    "../src/assets/" + folderName + "/" + spriteName + ".png"
+    "assets/" + folderName + "/" + spriteName + ".png"
   );
   spriteC4 = new SpriteSheet(spriteSheet4, spriteData4);
 
   spriteName = "terrain5";
   let spriteSheet5 = loadJSON(
-    "../src/assets/" + folderName + "/" + spriteName + ".json"
+    "assets/" + folderName + "/" + spriteName + ".json"
   );
   let spriteData5 = loadImage(
-    "../src/assets/" + folderName + "/" + spriteName + ".png"
+    "assets/" + folderName + "/" + spriteName + ".png"
   );
   spriteC5 = new SpriteSheet(spriteSheet5, spriteData5);
 
   folderName = "2tileWangEdge";
   spriteName = "terrain1";
   let spriteSheetE1 = loadJSON(
-    "../src/assets/" + folderName + "/" + spriteName + ".json"
+    "assets/" + folderName + "/" + spriteName + ".json"
   );
   let spriteDataE1 = loadImage(
-    "../src/assets/" + folderName + "/" + spriteName + ".png"
+    "assets/" + folderName + "/" + spriteName + ".png"
   );
   spriteE1 = new SpriteSheet(spriteSheetE1, spriteDataE1);
 }
